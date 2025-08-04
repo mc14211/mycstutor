@@ -55,6 +55,9 @@ header h1 {
   }
   .nav-link,.yt-icon{
     margin-right:6px;
+    border:none !important;
+    font-size:1.2rem !important;
+    background:transparent;
   }
   .home-icon i,.yt-icon i{
     font-size:1.1rem;
@@ -63,6 +66,7 @@ header h1 {
     height:150px;
     padding:0 3px;
     max-width: 440px !important;
+    margin-left:-10px !important;
   }
   .header{
     position:static;
