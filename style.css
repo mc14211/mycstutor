@@ -1,0 +1,483 @@
+body {
+  font-family: 'Poppins',Arial, sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  background-image: url("webpagebackground.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+  margin:0;
+}
+
+header {
+  background: #adaaee;
+  position:sticky;
+  top:0;
+  z-index:1000;
+  color: white;
+  border-radius: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+}
+header h1 {
+    margin:0
+}
+
+@media (max-width: 600px) {
+  .hero {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .nav-link{
+    padding:1px 1px !important;
+    font-size:0.9rem !important;
+    border-width:1px;
+    max-width: 55px !important;
+    font-size:0.65rem !important;
+  }
+  .nav-right {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .navbar{
+    height:150px;
+    gap:4px;
+    padding:0 1px !important;
+    flex-direction:column;
+    align-items:center;
+    position:static;
+    box-sizing:border-box;
+    overflow:hidden;
+  }
+  .nav-link,.yt-icon{
+    margin-right:4px;
+  }
+  .home-icon i,.yt-icon i{
+    font-size:0.9rem;
+  }
+  .navbar-container{
+    height:150px;
+    padding:0 3px;
+    max-width: 440px !important;
+  }
+  .header{
+    position:static;
+  }
+  .nav-links{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    padding:1px 1px;
+    align-items:center;
+    gap:1px !important;
+    width:85% !important;
+    font-size: 1rem !important;
+  }
+  .tutor-logo{
+    margin-bottom:2px;
+  }
+  .navbar *{
+    box-sizing: border-box;
+    max-width:400px;
+    margin:0 auto;
+  }
+  .yt-icon{
+    font-size:0.6rem !important;
+  }
+}
+
+
+
+
+header nav {
+    margin-top:10px;
+}
+
+header nav a {
+    font-size:1.1rem;
+    color: #000000;
+    font-weight:bold;
+    text-decoration: none;
+    margin:0 5px;
+}
+
+.hero-heading{
+    font-family:'Poppins',sans-serif;
+    font-size:clamp(2rem,5vw,3.5rem);
+    font-weight:800;
+    line-height: 1.1;
+    color:#cd2c2c;
+    margin-bottom:15px;
+    letter-spacing:-0.5px;
+    text-align:center;
+}
+
+.yt-icon{
+    display: inline-flex;
+    align-items:center;
+    gap:6px;
+    font-weight:bold;
+    font-size:1.1rem;
+    color:#ff0000;
+    text-decoration:none;
+    padding:6px 10px;
+    border-radius: 6px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.yt-icon:hover {
+  background-color: #ADAAEE;
+  color: white;
+  text-decoration: none;
+  transform: scale(1.05);
+}
+
+
+.yt-icon i {
+    color:#ff0000;
+    font-size:1.75rem;
+    position:relative;
+    top:3px;
+    right:2px;
+}
+
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-top:10px;
+}
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:1200px;
+    padding:0 320px;
+    width:100%;
+    margin:0 auto;
+}
+
+.navbar a {
+    margin: 0 15px;
+    padding: 2px 6px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.navbar-container{
+    max-width:1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width:100%;
+}
+
+
+.tutor-logo{
+  flex-shrink:0;
+}
+.logo-img{
+  height:40px;
+  width:auto;
+}
+
+
+
+.home-icon{
+    color:#0077cc;
+    font-size:1.6rem;
+    text-decoration:none;
+    padding:8px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    background-color:#ADAAEE;
+    border-radius:6px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-icon:hover{
+    background-color:#0077cc;
+    color:#ADAAEE;
+}
+.nav-right{
+    flex-shrink:0;
+    display:flex;
+    width:60px;
+    align-items:center;
+    justify-content:center;
+}
+.nav-link {
+    color: #3f2e2e;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-decoration: none;
+    gap:20px;
+    padding: 6px 12px;
+    border: 2px solid #3c2a95;
+    border-radius: 5px;
+    transition: background-color 0.6s ease, color 0.3s ease;
+}
+
+.nav-link:hover{
+    background-color:#4c39a7;
+    color:#000000
+}
+.nav-link.home{
+    color:#000000;
+    background-color:#174668;
+    padding: 6px 12px;
+    border-radius:4px;
+    text-decoration:none;
+    font-weight:bold;
+
+}
+
+.nav-link.home:hover{
+    background-color:#000000;
+}
+
+.nav-links{
+  flex-grow:1;
+  flex-shrink:0;
+  display:flex;
+  justify-content:center;
+  gap:40px;
+}
+
+
+
+main {
+    margin-top:40px;
+    padding:0 20px;
+}
+
+.hero {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(44,62,80,0.1);
+    max-width:1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-text{
+    flex: 1 1 350px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #e60000;
+  color: white;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #d51313;
+}
+
+.tutor-btn{
+  display: inline-block;
+  background-color: #0064e6;
+  color: white;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+
+}
+
+.tutor-btn:hover{
+    background-color:#0077cc
+}
+
+.past-paper-btn{
+  display: inline-block;
+  background-color: #16cf76;
+  color: white;
+  font-weight: 600;
+  padding: 12px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+a:focus{
+    outline:2px solid #0077cc;
+    outline-offset:2px;
+}
+
+.hero-image img {
+  max-width: 400px;
+  width: 100%;
+  height:auto;
+  object-fit:cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(44, 62, 80, 0.2);
+}
+
+
+
+.upload-section, .resources-section {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#fileList li {
+  margin-top: 10px;
+}
+
+.resource-list {
+  display: block;
+  padding-left: 0;
+}
+
+.resource-item {
+  max-height:80px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.resource-item img {
+  max-height:80px;
+  margin-right:10px;
+  vertical-align:middle;
+}
+
+.resource-item a {
+ text-decoration:none;
+ color:#2c3e50;
+ font-weight:bold;
+ vertical-align:middle;
+}
+
+.info-block{
+    background-color:white;
+    padding:15px 30px;
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 1200px;
+    box-shadow: 0 4px 15px rgba(44,62,80,0.1);
+}
+
+.info-block h2{
+    margin-top: 0;
+    color:#2c3e50
+}
+.info-block p {
+    color:#555;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.info-image{
+   width:100%;
+   max-width:785px;
+   height:auto;
+   margin-top: 20px;
+   border-radius:10px;
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+   display:block;
+   margin-left:auto;
+   margin-right:auto;
+
+}
+
+.hero-text,.info-block{
+    text-align:center;
+}
+
+.exam-board-container{
+  display:flex;
+  flex-wrap:wrap;
+  gap:20px;
+  margin-top:20px;
+  justify-content:space-between;
+}
+
+.exam-board{
+  flex: 1 1 180px;
+  background-color:#f9f9f9;
+  padding:15px;
+  border-radius:10px;
+  box-shadow:0 2px 5px rgba(0,0,0,0.1);
+  font-family: 'Roboto',sans-serif;
+}
+
+.exam-board h3{
+  font-size:1.2rem;
+  font-weight:700;
+  margin-bottom:10px;
+  color:#333;
+  border-bottom:2px solid #0077cc;
+  padding-bottom:5px;
+}
+
+.exam-board l1{
+  margin: 6px 0;
+}
+.exam-board a {
+  color: #0077cc;
+  text-decoration:none;
+  font-weight:500;
+}
+
+.exam-board a:hover{
+  text-decoration:underline;
+}
+
+.paper-section{
+  margin-bottom:10px;
+}
+.paper-section h4{
+  font-size:1rem;
+  font-weight:600;
+  margin-bottom:8px;
+  color:#555;
+  border-bottom:1px dashed #ccc;
+  padding-bottom:3px;
+}
+
+.paper-section a{
+  font-size:0.9rem;
+  padding-bottom:10px;
+}
