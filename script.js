@@ -2,7 +2,7 @@
 
 
 // Load navbar
-fetch("navbar.html")
+fetch("/navbar.html")
   .then(res => res.text())
   .then(data => {
     const placeholder = document.getElementById("navbar-placeholder");
