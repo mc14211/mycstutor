@@ -1,6 +1,3 @@
-
-
-
 // Load navbar
 fetch("/navbar.html")
   .then(res => res.text())
