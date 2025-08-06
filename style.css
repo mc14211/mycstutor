@@ -15,7 +15,7 @@ body {
   margin:0;
 }
 .navbar a{
-  font-size:1.15rem;
+  font-size:1.45rem;
   color:#fff;
   text-decoration:none;
   font-weight:500;
@@ -190,10 +190,10 @@ main {
   background-color: #e60000;
   color: white;
   font-weight: 600;
-  padding: 12px 22px;
-  border-radius: 6px;
+  padding: 20px 30px;
+  border-radius: 5px;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   transition: background-color 0.3s ease;
 }
 
@@ -341,11 +341,11 @@ a:focus{
 }
 
 .exam-board h3{
-  font-size:1.2rem;
+  font-size:1.5rem;
   font-weight:700;
   margin-bottom:10px;
   color:#333;
-  border-bottom:2px solid #0077cc;
+  border-bottom:4px solid #0077cc;
   padding-bottom:5px;
 }
 
@@ -366,7 +366,7 @@ a:focus{
   margin-bottom:10px;
 }
 .paper-section h4{
-  font-size:1rem;
+  font-size:1.05rem;
   font-weight:600;
   margin-bottom:8px;
   color:#555;
