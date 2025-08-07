@@ -55,9 +55,7 @@ header {
   .home-icon i,.yt-icon i{
     font-size:1.1rem;
   }
- 
-
-  }
+  
   .header{
     position:static;
   }
@@ -69,7 +67,13 @@ header {
   .yt-icon{
     font-size:0.6rem !important;
   }
+  .resources-section p{
+    font-size:0.75rem !important;
+  }
+  .resources-section{
+    font-size:1.3rem !important;
 
+  }}
 
 
 
@@ -257,6 +261,14 @@ a:focus{
     width:80%;
     margin-left: auto;
     margin-right: auto;
+    font-size:1.4rem;
+}
+
+.resources-section p{
+  font-size:0.85rem
+}
+.resources-section h3{
+  text-align:center;
 }
 
 #fileList li {
@@ -356,10 +368,14 @@ a:focus{
   color: #0077cc;
   text-decoration:none;
   font-weight:500;
+  max-height:130px;
 }
 
 .exam-board a:hover{
   text-decoration:underline;
+}
+.exam-board li::marker{
+  font-size:0.9rem;
 }
 
 .paper-section{
