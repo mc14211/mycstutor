@@ -167,7 +167,7 @@ main {
     padding:30px;
     border-radius:12px;
     box-shadow:0 8px 25px rgba(44,62,80,0.1);
-    max-width:1300px;
+    max-width:1100px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -265,7 +265,7 @@ a:focus{
 }
 
 .resources-section p{
-  font-size:0.85rem
+  font-size:0.8rem
 }
 .resources-section h3{
   text-align:center;
@@ -301,8 +301,8 @@ a:focus{
 
 .info-block{
     background-color:white;
-    padding:15px 30px;
-    border-radius: 12px;
+    padding:10px 20px;
+    border-radius: 10px;
     margin: 40px auto;
     max-width: 1400px;
     box-shadow: 0 4px 15px rgba(44,62,80,0.1);
@@ -314,9 +314,9 @@ a:focus{
 }
 .info-block p {
     color:#555;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     line-height: 1.6;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 .info-image{
    width:100%;
@@ -353,11 +353,11 @@ a:focus{
 }
 
 .exam-board h3{
-  font-size:1.5rem;
+  font-size:1.8rem;
   font-weight:700;
   margin-bottom:10px;
   color:#333;
-  border-bottom:4px solid #0077cc;
+  border-bottom:5px solid #0077cc;
   padding-bottom:5px;
 }
 
@@ -380,9 +380,12 @@ a:focus{
 
 .paper-section{
   margin-bottom:10px;
+  font-size:0.9rem;
+  font-weight:600;
+  color:#0d00ff
 }
 .paper-section h4{
-  font-size:1.05rem;
+  font-size:1.15rem;
   font-weight:600;
   margin-bottom:8px;
   color:#555;
@@ -395,3 +398,7 @@ a:focus{
   padding-bottom:10px;
 }
 
+.paper-section li{
+  padding:3px 3px;
+  font-size:1.2rem;
+}
