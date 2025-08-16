@@ -254,21 +254,29 @@ a:focus{
     background: white;
     padding: 20px;
     margin: 0 auto;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 2px 10px rgba(5, 25, 140, 0.5);
     background:white;
     padding:30px;
     border-radius:12px;
     width:80%;
     margin-left: auto;
     margin-right: auto;
-    font-size:1.4rem;
+    font-size:1.1rem;
 }
+
 
 .resources-section p{
   font-size:0.8rem
 }
 .resources-section h3{
   text-align:center;
+}
+.resources-section h2{
+  color:#1a0fe4;
+}
+.resources-section h10 {
+  color:rgb(219, 38, 38);
+  font-size:1.25rem;
 }
 
 #fileList li {
